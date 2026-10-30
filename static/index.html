@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Otimizador de Builds Fictícias</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Projeto demonstrativo</p>
+      <h1>Otimizador de Builds Fictícias</h1>
+      <p>Compare equipamentos inventados e veja como cada componente influencia a pontuação.</p>
+    </header>
+    <section class="panel">
+      <label for="target">Alvo fictício</label>
+      <select id="target"></select>
+      <button id="optimize" type="button">Encontrar melhor combinação</button>
+    </section>
+    <section class="panel" aria-live="polite">
+      <h2>Resultado</h2>
+      <pre id="result">Carregando catálogo fictício...</pre>
+    </section>
+  </main>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

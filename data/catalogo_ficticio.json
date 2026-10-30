@@ -1,0 +1,22 @@
+{
+  "equipment": [
+    {"id":"w_lamina_alvorada","name":"Lâmina da Alvorada","kind":"weapon","slot":"weapon","attack":118,"affinity":12,"element":18,"skills":{"ímpeto":1}},
+    {"id":"w_martelo_basaltico","name":"Martelo Basáltico","kind":"weapon","slot":"weapon","attack":142,"affinity":-8,"element":0,"skills":{"guarda":1}},
+    {"id":"w_arco_nevoa","name":"Arco da Névoa","kind":"weapon","slot":"weapon","attack":104,"affinity":20,"element":30,"skills":{"foco elemental":1}},
+    {"id":"a_elmo_vigia","name":"Elmo do Vigia","kind":"armor","slot":"head","defense":42,"skills":{"guarda":1}},
+    {"id":"a_capuz_faisca","name":"Capuz da Faísca","kind":"armor","slot":"head","defense":34,"skills":{"foco elemental":2}},
+    {"id":"a_peitoral_rocha","name":"Peitoral de Rocha","kind":"armor","slot":"chest","defense":55,"skills":{"guarda":2}},
+    {"id":"a_tunica_aurora","name":"Túnica da Aurora","kind":"armor","slot":"chest","defense":38,"skills":{"ímpeto":2}},
+    {"id":"a_bracadeiras_vento","name":"Braçadeiras do Vento","kind":"armor","slot":"arms","defense":36,"skills":{"ímpeto":1}},
+    {"id":"a_manoplas_cristal","name":"Manoplas de Cristal","kind":"armor","slot":"arms","defense":40,"skills":{"foco elemental":1}},
+    {"id":"a_cintura_guardiao","name":"Cintura do Guardião","kind":"armor","slot":"waist","defense":48,"skills":{"guarda":1}},
+    {"id":"a_faixa_cometa","name":"Faixa do Cometa","kind":"armor","slot":"waist","defense":32,"skills":{"ímpeto":2}},
+    {"id":"a_botas_granito","name":"Botas de Granito","kind":"armor","slot":"legs","defense":50,"skills":{"guarda":1}},
+    {"id":"a_sandalias_orvalho","name":"Sandálias do Orvalho","kind":"armor","slot":"legs","defense":35,"skills":{"foco elemental":2}}
+  ],
+  "targets": [
+    {"id":"t_fera_cinzenta","name":"Fera Cinzenta","physical_resistance":0.18,"elemental_resistance":0.30},
+    {"id":"t_serpe_cristal","name":"Serpe de Cristal","physical_resistance":0.32,"elemental_resistance":0.12},
+    {"id":"t_colosso_bosque","name":"Colosso do Bosque","physical_resistance":0.24,"elemental_resistance":0.22}
+  ]
+}
